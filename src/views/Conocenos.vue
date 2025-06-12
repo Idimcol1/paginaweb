@@ -8,7 +8,11 @@
         <q-img src="/fotosConocenos/FOTO29.jpg" fit="cover" style="border-radius: 20px;"></q-img>
       </div>
       <div class="col-4">
-        <q-img src="/fotosConocenos/planta.jpg" fit="cover" style="border-radius: 20px;height:100% "></q-img>
+        <q-img
+          src="/fotosConocenos/planta.jpg"
+          fit="cover"
+          style="border-radius: 20px;height:100% "
+        ></q-img>
       </div>
       <div class="col-4">
         <q-img src="/fotosConocenos/operario.png" fit="cover" style="border-radius: 20px;"></q-img>
@@ -32,13 +36,43 @@
 
     <div class="videos row">
       <div class="col-4">
-        <video ref="video1" src="/fotosConocenos/Ajedrez.mp4" controls></video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/toulgFe37_M"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <!-- <video ref="video1" src="/fotosConocenos/Ajedrez.mp4" controls></video> -->
       </div>
       <div class="col-4">
-        <video ref="video2" src="/fotosConocenos/Bodega.mp4" controls></video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/XiWEE-MfCao"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <!-- <video ref="video2" src="/fotosConocenos/Bodega.mp4" controls></video> -->
       </div>
       <div class="col-4">
-        <video ref="video3" src="/fotosConocenos/Elevador.mp4" controls></video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/KnXwj0BvIM4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <!-- <video ref="video3" src="/fotosConocenos/Elevador.mp4" controls></video> -->
       </div>
     </div>
     <Footer class="footer" />
@@ -96,14 +130,14 @@ video {
     width: 48%; /* Ajuste para que solo entren dos elementos por fila */
   }
   .videos {
-    gap:20px;
+    gap: 20px;
   }
 }
-@media (max-width: 600px){
-  .row{
+@media (max-width: 600px) {
+  .row {
     gap: 5px;
   }
-  .col-4{
+  .col-4 {
     width: 90%;
   }
 }

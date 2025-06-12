@@ -1,9 +1,19 @@
 <template>
   <div>
     <div class="container">
-      <video ref="videoPlayer" autoplay playsinline controls>
+      <iframe
+        src="https://www.youtube.com/embed/rfIY2-pheqM?si=7LalirFJrPKmDDtT"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        style="position: absolute; width: 100%; height: 100%; z-index: 2;"
+      ></iframe>
+
+      <!-- <video ref="videoPlayer" autoplay playsinline controls>
         <source src="fotosInicio/video.mp4" type="video/mp4" />
-      </video>
+      </video> -->
+
       <div>
         <p class="title">IDIMCOL</p>
       </div>
@@ -21,6 +31,7 @@
         </p>
       </div>
     </div>
+
     <div>
       <div class="container2">
         <div class="imgFondo">
@@ -35,20 +46,25 @@
         </div>
       </div>
     </div>
+
     <Footer class="footer" />
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
 import Footer from "@/components/Footer.vue"; // Asegúrate de que el path es correcto
+
+// El siguiente bloque está comentado porque el video local no se está usando.
+// Puedes descomentarlo si decides volver a usar el <video> tag en lugar del iframe.
+/*
+import { ref, onMounted } from "vue";
 
 const videoPlayer = ref(null);
 const isPlaying = ref(true);
 
 onMounted(() => {
   const video = videoPlayer.value;
-  video.muted = false; //Desmutear video
+  video.muted = false; // Desmutear video
 
   const playVideo = () => {
     video.play().catch(error => {
@@ -61,17 +77,9 @@ onMounted(() => {
   };
   document.addEventListener("click", playVideo);
 });
-
-// const togglePlayPause = () => {
-//   if (videoPlayer.value.paused){
-//     videoPlayer.value.play();
-//     isPlaying.value = true;
-//   } else {
-//     videoPlayer.value.pause();
-//     isPlaying.value = false;
-//   }
-// };
+*/
 </script>
+
 <style scoped>
 * {
   margin: 0;
@@ -231,7 +239,7 @@ img {
     font-size: 20px;
     left: 65%;
   }
-  .imgFondo{
+  .imgFondo {
     width: 130%;
   }
 }
@@ -368,7 +376,7 @@ img {
     width: 210%;
   }
 }
-@media (max-width: 630px){
+@media (max-width: 630px) {
   .title {
     font-size: 80px;
   }
@@ -376,7 +384,7 @@ img {
     font-size: 17px;
     top: 23%;
   }
-  .textoDerecha{
+  .textoDerecha {
     font-size: 15px;
     left: 47%;
   }
@@ -423,12 +431,12 @@ img {
     width: 320%;
   }
 }
-@media (max-width: 500px){
-  .textoDerecha{
+@media (max-width: 500px) {
+  .textoDerecha {
     left: 35%;
   }
-  .text{
-    font-size:35px;
+  .text {
+    font-size: 35px;
   }
 }
 @media (max-width: 450px) {
@@ -442,7 +450,7 @@ img {
   }
   .textoDerecha {
     font-size: 12px;
-    left:29%;
+    left: 29%;
   }
   .imgFondo {
     width: 400%;
@@ -461,18 +469,18 @@ img {
     top: 70%;
   }
 }
-@media (max-width: 380px){
-  .textoDerecha{
+@media (max-width: 380px) {
+  .textoDerecha {
     font-size: 11px;
     top: 85%;
     left: 20%;
   }
-  .imgFondo{
+  .imgFondo {
     width: 450%;
   }
 }
-@media (max-width: 330px){
-  .textoDerecha{
+@media (max-width: 330px) {
+  .textoDerecha {
     font-size: 10px;
     top: 84%;
     left: 15%;
@@ -482,7 +490,7 @@ img {
     top: 7%;
   }
 
-  .imgFondo{
+  .imgFondo {
     width: 470%;
   }
 }
