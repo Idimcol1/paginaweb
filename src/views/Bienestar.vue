@@ -62,7 +62,8 @@ const items = ref([
     dialogText:
       "En IDIMCOL, queremos agradecer a las mujeres que hacen y han sido parte de nuestra familia. Su dedicación, esfuerzo y talento han sido fundamentales para el crecimiento de nuestra empresa. Hoy y siempre, reconocemos su valiosa labor y el impacto positivo que generan en cada área donde están presentes. Gracias por ser inspiración, fortaleza y motor de cambio.",
     dialogImages:[
-      "/fotosBienestar/mujer.png"
+      "/fotosBienestar/mujer.png",
+      "/fotosBienestar/mujerregalo.jpg"
     ]
   },
   {
@@ -72,7 +73,8 @@ const items = ref([
     dialogText:
       "Agradecemos tu dedicación y profesionalismo que hacen que todo funcione con armonía y eficacia. Gracias por ser parte fundamental de nuestra familia IDIMCOL. ¡Feliz Día de la Secretaria!",
     dialogImages: [
-      "/fotosBienestar/secretaria.png"
+      "/fotosBienestar/secretaria.png",
+      "/fotosBienestar/fotosecretaria.jpg"
     ]
   },
     {
@@ -84,7 +86,82 @@ const items = ref([
     dialogImages:[
       "/fotosBienestar/madre.png"
     ] 
-  }
+  },
+  {
+    title: "Detalles y Reconocimientos",
+    imageUrl:
+      "https://media.istockphoto.com/id/1264090986/es/vector/equipo-de-empleados-felices-ganando-el-premio.jpg?s=612x612&w=0&k=20&c=XPiqBHIvvE-6aqVd2bIYv9m7-1X5Kf1vvtQ5ZLkF_sI=",
+    dialogText:
+      "En IDIMCOL, valoramos el esfuerzo y dedicación de nuestros trabajadores. Por eso, hemos entregado estos detalles  y reconocimientos por su compromiso y pasión con Idimcol. Agradecemos a todos y les animamos a seguir dando lo mejor de sí.",    dialogImages:[
+      "/fotosBienestar/detalles.jpg",
+      "/fotosBienestar/reconocimientos.jpg",
+      "/fotosBienestar/detalles.png"
+    ]
+},{
+  title:"Integraciones",
+  imageUrl:
+  "https://img.freepik.com/vetores-gratis/gerenciamento-de-tempo-metodo-de-calendario-planejamento-de-compromissos-organizador-de-negocios-pessoas-desenhando-a-marca-em-personagens-de-desenhos-animados-de-cronograma-de-trabalho-trabalho-em-equipe-de-colegas_335657-2096.jpg",
+  dialogText:
+  "",
+  dialogImages:[
+    "/fotosBienestar/integracion.jpeg",
+    "/fotosBienestar/integracion2.jpeg",
+    "/fotosBienestar/integracion3.jpeg",
+    "/fotosBienestar/integracion4.jpeg",
+    "/fotosBienestar/integracion5.jpeg",
+    "/fotosBienestar/integracion6.jpeg"
+  ]
+},
+{
+  title:"Capacitaciones",
+  imageUrl:"https://atrevete.academy/blog/wp-content/uploads/2019/08/business-training-concept_171919-1.jpg",
+  dialogImages: [
+    "/fotosBienestar/capacitacion.jpeg",
+    "/fotosBienestar/capacitacion2.jpeg",
+    "/fotosBienestar/capacitacion3.jpeg",
+    "/fotosBienestar/capacitacion4.jpeg",
+    "/fotosBienestar/capacitacion5.jpeg",
+    "/fotosBienestar/capacitacion6.jpeg",
+    "/fotosBienestar/capacitacion7.jpeg",
+    "/fotosBienestar/capacitacion8.jpeg"
+  ],
+},
+{
+  title:"Cumpleaños",
+  imageUrl:"https://latinopinionbaltimore.com/wp-content/uploads/2023/12/3642037.jpg",
+  dialogImages:[
+    "/fotosBienestar/cumpleaños.jpeg",
+    "/fotosBienestar/cumpleaños2.jpeg",
+    "/fotosBienestar/cumpleaños3.jpeg",
+    "/fotosBienestar/cumpleaños4.jpeg",
+    "/fotosBienestar/cumpleaños5.jpeg",
+    "/fotosBienestar/cumpleaños6.jpeg",
+    "/fotosBienestar/cumpleaños7.jpeg"
+  ]
+},
+{
+  title:"Pausas Activas",
+  imageUrl:"https://www.anticipacionycontrol.com/wp-content/uploads/2024/01/Como-hacer-pausas-activas.jpg",
+  dialogImages:[
+    "/fotosBienestar/pausas.jpeg",
+    "/fotosBienestar/pausas2.jpeg",
+    "/fotosBienestar/pausas3.jpeg",
+    "/fotosBienestar/pausas4.jpeg",
+    "/fotosBienestar/pausas5.jpeg",
+    "/fotosBienestar/pausas6.jpeg"
+  ]
+},
+{
+  title:"Personal",
+  imageUrl:"",
+  dialogImages:[
+    "/fotosBienestar/personal.jpeg",
+    "/fotosBienestar/personal2.jpeg",
+    "/fotosBienestar/personal3.jpeg",
+    "/fotosBienestar/personal4.jpeg",
+    "/fotosBienestar/personal5.jpeg"
+  ]
+}
 ]);
 </script>
 
