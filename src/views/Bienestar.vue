@@ -88,7 +88,7 @@ const items = ref([
     ] 
   },
   {
-    title: "Detalles y Reconocimientos",
+    title: "Reconocimientos",
     imageUrl:
       "https://media.istockphoto.com/id/1264090986/es/vector/equipo-de-empleados-felices-ganando-el-premio.jpg?s=612x612&w=0&k=20&c=XPiqBHIvvE-6aqVd2bIYv9m7-1X5Kf1vvtQ5ZLkF_sI=",
     dialogText:
@@ -153,9 +153,9 @@ const items = ref([
 },
 {
   title:"Personal",
-  imageUrl:"",
+  imageUrl:"https://media.istockphoto.com/id/1213439458/es/vector/concepto-de-vacante-laboral-y-recursos-humanos.jpg?s=612x612&w=0&k=20&c=w0xiP-IupfNsONwdGpo4wed3ZdcQuHdfjOPyikHunrM=",
   dialogImages:[
-    "/fotosBienestar/personal.jpeg",
+    "/fotosBienestar/personal.png",
     "/fotosBienestar/personal2.jpeg",
     "/fotosBienestar/personal3.jpeg",
     "/fotosBienestar/personal4.jpeg",
