@@ -340,8 +340,9 @@ b {
     max-width: 350px;
   }
   #map{
-    width: 100%;
-    margin-left: -40px;
+    width: 90%;
+    height: 400px;
+    margin-left: -50px;
   }
 }
 @media (max-width: 1035px) {
