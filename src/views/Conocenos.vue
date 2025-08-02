@@ -27,10 +27,19 @@
         <q-img src="/fotosConocenos/maquina1.jpg" fit="cover" style="border-radius: 20px;"></q-img>
       </div>
       <div class="col-4">
-        <q-img src="/fotosConocenos/cnc.jpg" fit="cover" style="border-radius: 20px;height:70%;"></q-img>
+        <q-img src="/fotosConocenos/maquina4.jpg" fit="cover" style="border-radius: 20px;"></q-img>
       </div>
       <div class="col-4">
         <q-img src="/fotosConocenos/maquina3.jpg" fit="cover" style="border-radius: 20px;"></q-img>
+      </div>
+      <div class="col-4">
+        <q-img src="/fotosConocenos/maquina2.jpg" fit="cover" style="border-radius: 20px;"></q-img>
+      </div>
+      <div class="col-4">
+        <q-img src="/fotosConocenos/maquina5.jpg" fit="cover" style="border-radius: 20px;"></q-img>
+    </div>
+      <div class="col-4">
+        <q-img src="/fotosConocenos/maquina6.jpg" fit="cover" style="border-radius: 20px;"></q-img>
       </div>
     </div>
 
