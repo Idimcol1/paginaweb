@@ -85,8 +85,7 @@ const items = ref([
       "https://media.istockphoto.com/id/1264090986/es/vector/equipo-de-empleados-felices-ganando-el-premio.jpg?s=612x612&w=0&k=20&c=XPiqBHIvvE-6aqVd2bIYv9m7-1X5Kf1vvtQ5ZLkF_sI=",
     dialogImages: [
       "/fotosBienestar/detalles.jpg",
-      "/fotosBienestar/reconocimientos.jpg",
-      "/fotosBienestar/detalles.png"
+      "/fotosBienestar/reconocimientos.jpg"
     ]
   },
   {
@@ -124,13 +123,13 @@ const items = ref([
     imageUrl:
       "https://latinopinionbaltimore.com/wp-content/uploads/2023/12/3642037.jpg",
     dialogImages: [
-      "/fotosBienestar/cumpleaños.jpeg",
-      "/fotosBienestar/cumpleaños2.jpeg",
-      "/fotosBienestar/cumpleaños3.jpeg",
-      "/fotosBienestar/cumpleaños4.jpeg",
-      "/fotosBienestar/cumpleaños5.jpeg",
-      "/fotosBienestar/cumpleaños6.jpeg",
-      "/fotosBienestar/cumpleaños7.jpeg"
+      "/fotosBienestar/cumple.jpeg",
+      "/fotosBienestar/cumple2.jpeg",
+      "/fotosBienestar/cumple3.jpeg",
+      "/fotosBienestar/cumple4.jpeg",
+      "/fotosBienestar/cumple5.jpeg",
+      "/fotosBienestar/cumple6.jpeg",
+      "/fotosBienestar/cumple7.jpeg"
     ]
   },
   {
